@@ -6,7 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Alert, AlertDescription } from "@/components/ui/alert";
-import { Package, Plus, AlertTriangle, Download, Refresh } from "lucide-react";
+import { Package, Plus, AlertTriangle, Download, RefreshCw } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import InventoryTable from "@/components/InventoryTable";
 import AddItemDialog from "@/components/AddItemDialog";
@@ -159,7 +159,7 @@ const Index = () => {
                     <CardDescription>Manage your stock items and quantities</CardDescription>
                   </div>
                   <Button onClick={refreshData} variant="outline">
-                    <Refresh className="h-4 w-4 mr-2" />
+                    <RefreshCw className="h-4 w-4 mr-2" />
                     Refresh
                   </Button>
                 </div>
